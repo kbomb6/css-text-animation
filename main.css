@@ -1,0 +1,12 @@
+.wrapperdiv {
+    perspective: 1800px;
+    text-align: center;
+ }
+ .textchange {
+   animation: firsttext 30s infinite;
+ }
+ @keyframes firsttext {
+   0% {background:#aaaaaa;}
+   50% {background: #f7f7f7;}
+   100% {background: #eb4034;}
+ }
